@@ -28,19 +28,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#top-of-page">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Products</a>
+            <a class="nav-link active" href="#our-products">Our Products</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link active" href="#about-us">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Visit</a>
+            <a class="nav-link active" href="#visit-us">Visit</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link active" href="#stay-in-touch">Contact</a>
           </li>
           <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -67,7 +67,7 @@
 
   <!--Jumbotron-->
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+    <div class="carousel-inner" id="top-of-page">
       <div class="carousel-item active">
         <img src="./img/logo-carousel.jpg" class="d-block w-100" alt="...">
       </div>
@@ -90,7 +90,7 @@
 
 <!--Carousel Section-->
 <div class="container-fluid">
-  <h1 class="text-center fw-bold mt-5">Our Products</h1>
+  <h1 class="text-center fw-bold mt-5" id="our-products">Our Products</h1>
   <div class="row pt-5 justify-content-center">
     <div class="card col-lg-4" style="width: 18rem;">
       <img src="./img/globes-corbels.jpg" class="card-img-top" alt="...">
@@ -146,11 +146,11 @@
   </div>
 </div>
 <!--About Us-->
-<div class="container-fluid p-5 mt-5" style="background-color: #467171;">
+<div class="container-fluid p-5 mt-5" style="background-color: #859b96;" id="about-us">
   <h2 class="text-center fw-bold">Who is Not My Sister's Style?</h2>
   <p class="text-center">Not My Sister's Style is what happened when the two of the three Bowman sisters, Marie and Jenny, decided that after years of attending auctions and estate sales they should start selling what they were buying. Marie would often send pictures of her unique finds to Jenny, to which Jenny would usually respond, <span class="fw-bold">"That's not my style."</span></p>
 </div>
-<div class="container-fluid" style="background-color: #467171;">
+<div class="container-fluid" style="background-color: #859b96;">
   <div class="row justify-content-center p-5">  
     <div class="col-lg-6">
       <img src="./img/marie.jpg" class="img-thumbnail" alt="...">
@@ -167,7 +167,7 @@
 </div>
 
 <!--Find Us-->
-<div class="container-fluid" style="background-color: #859b96;">
+<div class="container-fluid" id="visit-us">
   <div class="row d-flex">
     <div class="col-lg-6 p-4 text-center justify-content-center">
       <h2 class="mt-5 fw-bold">Find us in Ohio's Amish Country</h2>
@@ -181,17 +181,19 @@
 </div>
 
 <!--Contact-->
-<div class="container mt-5">
-  <h2 class="text-center mb-3 fw-bold">Stay in touch with the Sisters</h2>
-  <div class="mb-3">
-    <label for="exampleFormControlInput1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+<footer class="p-5" style="background-color: #265460;">
+  <div class="container" id="stay-in-touch">
+    <h3 class="text-center mb-3 fw-bold">Stay in touch with the Sisters</h3>
+    <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
   </div>
-  <div class="mb-3">
-    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-  </div>
-</div>
+</footer>
 
 
 

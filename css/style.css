@@ -7,3 +7,11 @@ p {
     font-family: Montserrat, sans-serif;
     font-size: 18px;
 }
+
+footer, h3 {
+    color: #859b96;
+}
+
+h3 {
+    font-family: Gentium Book Basic, serif;
+}

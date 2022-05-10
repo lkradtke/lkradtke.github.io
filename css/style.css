@@ -12,6 +12,10 @@ footer, h3 {
     color: #ffffff;
 }
 
+footer {
+    font-family: Montserrat, sans-serif;
+}
+
 h3 {
     font-family: Gentium Book Basic, serif;
 }
@@ -22,4 +26,10 @@ h3 {
 
 h6 {
     font-family: Montserrat, sans-serif;
+}
+
+.sugarcreek-link {
+    font-family: Montserrat, sans-serif;
+    color:#265460;
+    font-weight: bold;
 }

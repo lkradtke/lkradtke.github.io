@@ -9,9 +9,17 @@ p {
 }
 
 footer, h3 {
-    color: #859b96;
+    color: #ffffff;
 }
 
 h3 {
     font-family: Gentium Book Basic, serif;
+}
+
+.fa-brands {
+    color: #ffffff;
+}
+
+h6 {
+    font-family: Montserrat, sans-serif;
 }

@@ -33,3 +33,21 @@ h6 {
     color:#265460;
     font-weight: bold;
 }
+
+#about-us {
+    position: relative;
+    bottom: 75px;
+    float:right;
+}
+
+#our-products {
+    position: relative;
+    bottom: 75px;
+    float:right;
+}
+
+#jumbotron {
+    position: relative;
+    bottom: 75px;
+    float:right;
+}

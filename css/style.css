@@ -9,9 +9,45 @@ p {
 }
 
 footer, h3 {
-    color: #859b96;
+    color: #ffffff;
+}
+
+footer {
+    font-family: Montserrat, sans-serif;
 }
 
 h3 {
     font-family: Gentium Book Basic, serif;
+}
+
+.fa-brands {
+    color: #ffffff;
+}
+
+h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+.sugarcreek-link {
+    font-family: Montserrat, sans-serif;
+    color:#265460;
+    font-weight: bold;
+}
+
+#about-us {
+    position: relative;
+    bottom: 75px;
+    float:right;
+}
+
+#our-products {
+    position: relative;
+    bottom: 75px;
+    float:right;
+}
+
+#jumbotron {
+    position: relative;
+    bottom: 75px;
+    float:right;
 }
